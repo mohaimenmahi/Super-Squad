@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 
+// deploying in heokru
+
 class SquadStats extends Component {
 	strength() {
 		let strength = 0;
