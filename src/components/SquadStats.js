@@ -19,9 +19,9 @@ class SquadStats extends Component {
 		this.props.heroes.forEach((hero) => speed += hero.speed);
 		return speed;
 	}
-  render(){
-    return(
-      <div>
+  	render(){
+    		return(
+      			<div>
 				<h4>Sqaud Stats</h4>
 				<ul className="list-group">
 					<li className="list-group-item">
@@ -34,9 +34,9 @@ class SquadStats extends Component {
 						<b>Overall Speed:</b> {this.speed()}
 					</li>
 				</ul>
-      </div>
-    );
-  }
+      			</div>
+    		);
+  	}
 }
 
 function mapStateToProps(state) {
