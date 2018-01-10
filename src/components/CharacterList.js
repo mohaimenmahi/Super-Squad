@@ -16,7 +16,8 @@ class CharacterList extends Component {
 				<div className="list-item">{ch.name}</div>
                   		<div 
 				onClick={() => { this.props.addCharacterById(ch.id) }} 
-    				className="list-item right-button">+
+    				className="list-item right-button">
+				+
 				</div>
 			</li>
 			);
